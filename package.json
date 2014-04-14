@@ -1,0 +1,20 @@
+{
+  "name": "angular-popup",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Bulkan Evcimen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.0.0",
+    "body-parser": "^1.0.1",
+    "cookie-parser": "^1.0.1",
+    "csurf": "^1.1.0"
+  }
+}
