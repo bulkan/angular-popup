@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    <h1>I'm a popup</h1>
+
+    script.
+        setTimeout(function(){
+            window.opener.$scope.says = 'teapot'; 
+            window.value = true;
+        }, 2000);
+
+

@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    // library scripts
+    script(src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular-route.js')
+    script(src='/js/app.js')
+  body(ng-app='app')
+    block content
