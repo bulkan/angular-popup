@@ -1,10 +1,12 @@
 # angular-popup
 
-Demonstrates the usage of a popup windows with AngularJS. 
+Demonstrates the usage of a popup window with AngularJS.  This is a not a reusable component.
 
-Popup windows are evil, but also useful for doing the OAuth dance.
+Popup windows are sometimes necessary evils, for example doing the OAuth dance.
 
 ```
 git clone
 npm install
 ```
+
+
